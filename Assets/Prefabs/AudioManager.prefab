@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3046838456228603649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3046838456228603651}
+  - component: {fileID: 3046838456228603650}
+  - component: {fileID: 1306516853}
+  - component: {fileID: 1306516854}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3046838456228603651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046838456228603649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3046838456228603650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046838456228603649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05cbeb1d870b8b64bb9061507c554097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: dash
+    clip: {fileID: 8300000, guid: 270c85001a32a044f8e13e85d19adeba, type: 3}
+    volume: 0.15
+    pitch: 1.4
+    source: {fileID: 0}
+  - name: BowDraw
+    clip: {fileID: 8300000, guid: ea843eb70081a924fa5a6b5d04050f0f, type: 3}
+    volume: 1
+    pitch: 1.4
+    source: {fileID: 0}
+  - name: Bullet
+    clip: {fileID: 8300000, guid: bc7d611f8c81ea84798431e55b436284, type: 3}
+    volume: 1
+    pitch: 1.4
+    source: {fileID: 0}
+  - name: ArrowShoot
+    clip: {fileID: 8300000, guid: 60a1e793832c3b7419c3879e35221a13, type: 3}
+    volume: 0.878
+    pitch: 1.4
+    source: {fileID: 0}
+  - name: CubeDudeCharge
+    clip: {fileID: 8300000, guid: 0c015bfbf65908244ade7c5e558b3eb1, type: 3}
+    volume: 0.878
+    pitch: 1
+    source: {fileID: 0}
+  - name: ScytheSlash
+    clip: {fileID: 8300000, guid: 6a136d45c6579b7409ef7b3e6d518368, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: f5585e630c680164184736a361cee97e, type: 3}
+    volume: 1
+    pitch: 2
+    source: {fileID: 0}
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: 1abb1a4a5aecc564baa6f4427f3b11e9, type: 3}
+    volume: 0.75
+    pitch: 1
+    source: {fileID: 0}
+  - name: DoorClose
+    clip: {fileID: 8300000, guid: f43cc9d8002e6b1489f668d8f7cdfb8d, type: 3}
+    volume: 1
+    pitch: 0.75
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: e2ceac984a0744a4e86d77e068b4021e, type: 3}
+    volume: 1
+    pitch: 1.5
+    source: {fileID: 0}
+  - name: Fireball
+    clip: {fileID: 8300000, guid: 6e50d8b1729464e4c8dceddb705fc626, type: 3}
+    volume: 0.2
+    pitch: 1.1
+    source: {fileID: 0}
+  - name: GreenGoblerShoot
+    clip: {fileID: 8300000, guid: 130a575b54765de459c0450399b6462a, type: 3}
+    volume: 0.089
+    pitch: 1.25
+    source: {fileID: 0}
+  - name: Firewall
+    clip: {fileID: 8300000, guid: ee8a320ab659e2448a9d94c3b904de73, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: CubeDudeCharge
+    clip: {fileID: 8300000, guid: 237e52cb1e7ddb84496ff2d9c46ff091, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: CubeDudeHit
+    clip: {fileID: 8300000, guid: e375505169434d244a78edcb99b9c92d, type: 3}
+    volume: 0.2
+    pitch: 1.2
+    source: {fileID: 0}
+--- !u!82 &1306516853
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046838456228603649}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.297
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1306516854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046838456228603649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa6199a0aadcac40b27011e10e7809c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songs:
+  - {fileID: 8300000, guid: 2db198f10ed0bd046bb97951ea8e8fa3, type: 3}
+  - {fileID: 8300000, guid: 5210c5ddc4246f64eb51fb2f898e62d9, type: 3}
+  - {fileID: 8300000, guid: 06caa50be4fe85545ae79bd7467528fd, type: 3}
+  audioSrc: {fileID: 1306516853}

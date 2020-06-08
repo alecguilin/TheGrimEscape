@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Player_Weapon
+  - Trap
+  - door
+  - Room_Master
+  - Spawn_Detector
+  - Wall
+  - Laser
+  - Arrow
+  - door_back
+  - door_front
+  - Scar_Bullet
+  - Fire1
+  - Fire2
+  - Pin
+  - Boss
+  - Idol
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Layer 1
+  - Player
+  - Enemy
+  - Art
+  - CubeDude
+  - SpawnDetector
+  - PlayerDot
+  - Echo
+  - Light
+  - Room
+  - EnemyDot
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Floor
+    uniqueID: 1183544923
+    locked: 0
+  - name: Top
+    uniqueID: 3161304447
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SKulls
+    uniqueID: 1451052621
+    locked: 0
+  - name: Fire
+    uniqueID: 198860321
+    locked: 0

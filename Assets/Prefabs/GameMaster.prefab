@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4089419575352267098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7962814864060435749}
+  - component: {fileID: 4089419575352267099}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7962814864060435749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089419575352267098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1061.1228, y: 598.09393, z: -46.902977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4089419575352267099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089419575352267098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03adba687bcec94aad7198676fce2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 205558072401223108, guid: fedd8949217917347836900e5ce14902, type: 3}
+  triggerss:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: SpawnEnemy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: SpawnEnemy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: SpawnEnemy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  roomsText: {fileID: 0}
+  timeText: {fileID: 0}
+  ScoreGoal: 5
+  numEnemies: 0
+  map: {fileID: 0}
+  LevelToLoad: Test_Level
+  RoomMasterList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gameobject_pools:
+  - object_pool: []
+    object_To_Spawn: {fileID: 4321403097459546808, guid: 8ec284b6933ba2146b397c896fe94a2b,
+      type: 3}
+    amount_objects: 8
+    object_name: ChargingEnemy
+  - object_pool: []
+    object_To_Spawn: {fileID: 1749957345688478927, guid: cd4cb5f198f09144aa12c2fdf62e43ca,
+      type: 3}
+    amount_objects: 8
+    object_name: ArcherEnemy
+  - object_pool: []
+    object_To_Spawn: {fileID: 888860747215449283, guid: 5079baf342b433149a48ace503c899e8,
+      type: 3}
+    amount_objects: 8
+    object_name: GreenGoblerEnemy
+  - object_pool: []
+    object_To_Spawn: {fileID: 1052766008739256145, guid: 8fd287b6d35da564cbb2c7d465e20159,
+      type: 3}
+    amount_objects: 30
+    object_name: Arrow
+  - object_pool: []
+    object_To_Spawn: {fileID: 2784660987806745179, guid: 55ab86e890dbfc549bb8a026e4a2d97c,
+      type: 3}
+    amount_objects: 5
+    object_name: EyeBall
+  - object_pool: []
+    object_To_Spawn: {fileID: 3820310734018545522, guid: 8faf91c4bd25b4284ab209ab23cf5594,
+      type: 3}
+    amount_objects: 15
+    object_name: Scar_Bullet
+  - object_pool: []
+    object_To_Spawn: {fileID: 3553079804686348950, guid: 0187076ad67f8234a8ca1c108808d322,
+      type: 3}
+    amount_objects: 5
+    object_name: FireBro
+  - object_pool: []
+    object_To_Spawn: {fileID: 5720790359406757180, guid: c5358b0c6a4c69244b364d2bfb43b09c,
+      type: 3}
+    amount_objects: 5
+    object_name: CubeDude
+  - object_pool: []
+    object_To_Spawn: {fileID: 888860747215449283, guid: 5079baf342b433149a48ace503c899e8,
+      type: 3}
+    amount_objects: 5
+    object_name: GreenGobler
+  - object_pool: []
+    object_To_Spawn: {fileID: 196603515983148059, guid: c70e40b64c8c6fc498af235a535b7c26,
+      type: 3}
+    amount_objects: 40
+    object_name: GreenGoblerProj
