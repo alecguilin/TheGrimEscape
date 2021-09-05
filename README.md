@@ -15,8 +15,6 @@ For a more detailed report on the project, please refer to the _Final Report.pdf
 
 Screenshots:
 
-<a href="https://ibb.co/82bjzkJ"><img src="https://i.ibb.co/wC7KJtT/Screenshot-82.png" alt="Screenshot-82" border="0" /></a>
-
 <a href="https://ibb.co/2YNSdXv"><img src="https://i.ibb.co/S7rcBqt/Screenshot-83.png" alt="Screenshot-83" border="0"></a>
 
 <a href="https://ibb.co/SBRrSD5"><img src="https://i.ibb.co/9WstPmc/Screenshot-86.png" alt="Screenshot-86" border="0"></a>
